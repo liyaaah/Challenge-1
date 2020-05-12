@@ -1,0 +1,173 @@
+
+html, body{
+	font-family: helvetica;
+	color: #FFFFFF;
+	/*background-image: url("background4.jpg");*/
+	background-color: #eaeef5;
+	margin: 0;
+}
+
+.dashboard{
+	margin: 100px 100px 50px 100px;
+
+}
+
+.banner h1 {
+	font-family: 'Rubik', sans-serif;
+	text-align: left;
+	font-size: 15px;
+	
+}
+
+.banner{
+
+	padding-bottom: 50px;
+	background-color: #281f48;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+h2{
+	margin-top: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	color: #281f48;
+
+}
+
+h3{
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #281f48;
+
+}
+
+.foodsupplies{
+
+	padding-top: 10px;
+	padding-left: 40px;
+	background-color: #ffffff;
+	box-shadow: 8px 8px 4px #d3d3d3;
+    width: 100%;
+    /*margin: 50px 100px 100px 50px;*/
+}
+
+#days-food{
+
+    color: blue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  color: #281f48;
+  padding-top: 10px;
+  box-shadow: 8px 8px 4px #d3d3d3;
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+
+}
+
+.foodsupplies p{
+
+	float: left;
+}
+
+
+
+
+#button-more{
+    padding: 7px 15px 7px;
+    color: #fff;
+    background-color: #aaabbb;
+    border-radius: 5px;
+    border: solid #cccccc 1px;
+    box-shadow: 2px 2px 1px #888888;
+    text-align: center;
+    margin-right: 40px;
+    cursor:pointer;
+
+}
+
+#button-less{
+    padding: 7px 15px 7px;
+    color: #fff;
+    background-color: #aaabbb;
+    border-radius: 5px;
+    border: solid #cccccc 1px;
+    box-shadow: 2px 2px 1px #888888;
+    text-align: center;
+    margin-left: 40px;
+    position: absolute;
+    right: 60%;
+    cursor:pointer;
+
+}
+
+.parameters{
+
+	padding-top: 10px;
+	background-color: #ffffff;
+    box-shadow: 8px 8px 4px #d3d3d3;
+    width: 100%;
+    overflow: hidden; /* */
+    padding-left: 40px;
+
+
+}
+
+.parameters p{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+
+}
+
+.parameters-numbers  {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    color: blue;
+
+}
+
+.distance{
+    width: 33%;
+    float: left; 
+    text-align: center;
+}
+
+.speed{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.fuel{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.arrival{
+
+    padding-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 8px 8px 4px #d3d3d3;
+    width: 100%;
+    overflow: hidden; /* */
+    padding-left: 40px;
+
+
+}

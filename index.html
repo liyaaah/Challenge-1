@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ITSI</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<link href="https://fonts.googleapis.com/css2?family=Karla&family=Orbitron:wght@500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+		<script src="scripts/main.js" defer></script>
+	</head>
+	<body>
+		<div class="banner"> 
+			<div> 
+				
+				<h1>My dashboard</h1>
+
+			</div>
+		</div>
+
+<div class="dashboard"> 
+		
+<div class="foodsupplies">
+	<h2> FOOD SUPPLY <h2>
+
+        <p> You have <span id="days-food"> </span> days worth of food left.</p> 
+
+		<table>
+  			<tr>
+    			<th><h3> Amount of packages</h3></th>
+    			<th><h3>item</h3></th>
+    		</tr> 
+    		<tr>
+    			<th id="item1count"><button id="button-more" onclick="fooditem1.increaseItem()"> + </button><span id="amount-item1"> </span><a id="button-less" onclick="fooditem1.decreaseItem()"> - </a></th>
+    			<th id="item1"></th>
+    		
+
+    		</tr> 
+
+    		<tr>
+    			<th id="item2count"><button id="button-more" onclick="fooditem2.increaseItem()"> + </button><span id="amount-item2"> </span><a id="button-less" onclick="fooditem2.decreaseItem()"> - </a></th>
+    			<th id="item2"></th>
+    			
+
+    		</tr> 
+
+    		<tr>
+    			<th id="item3count"><button id="button-more" onclick="fooditem3.increaseItem()"> + </button><span id="amount-item3"> </span><a id="button-less" onclick="fooditem3.decreaseItem()"> - </a></th>
+    			<th id="item3"></th>
+    			
+
+    		</tr> 
+
+    		<tr>
+    			<th id="item4count"><button id="button-more" onclick="fooditem4.increaseItem()"> + </button><span id="amount-item4"> </span><a id="button-less" onclick="fooditem4.decreaseItem()"> - </a></th>
+    			<th id="item4"></th>
+    			
+
+    		</tr> 
+    	</table>
+
+    	
+
+
+
+</div>	
+
+<div class="parameters"> 
+	<h2> SHIPS PARAMETERS <h2>
+        <div class="distance"> <p> Distance travelled: <br> <span id="distance-travelled" class="parameters-numbers"> </span> <br> km/204,000,000km </p> </div>
+        <div class="speed"> <p> Current speed: <br><span id="current-speed" class="parameters-numbers"> 124 </span> <br> km/sec <br> <div> </div> </p></div>
+        <div class="fuel"> <p> Current fuel:<br> <span id="current-fuel" class="parameters-numbers"> 2255</span> <br> liters </p></div>
+
+</div>
+
+
+
+</div>
+
+	</body>
+
+</html>
